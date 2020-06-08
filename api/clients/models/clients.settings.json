@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "clients"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ruta": {
+      "type": "integer",
+      "required": true
+    },
+    "zona": {
+      "type": "integer",
+      "required": true
+    },
+    "dni": {
+      "type": "string",
+      "required": true
+    },
+    "razonSocial": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "postalCode": {
+      "required": true,
+      "type": "biginteger"
+    },
+    "localidad": {
+      "type": "string",
+      "required": true
+    },
+    "municipio": {
+      "type": "string",
+      "required": true
+    },
+    "provincia": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "type": "biginteger",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    },
+    "horario": {
+      "type": "string",
+      "required": true
+    },
+    "contacto": {
+      "type": "string",
+      "required": true
+    },
+    "cargo": {
+      "type": "string",
+      "default": "dueño",
+      "required": true
+    },
+    "copias": {
+      "type": "biginteger",
+      "default": "0",
+      "required": true
+    },
+    "descuento": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "pago": {
+      "type": "string",
+      "default": "Contado",
+      "required": true
+    }
+  }
+}
