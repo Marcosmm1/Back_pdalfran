@@ -74,15 +74,17 @@
       "default": "0",
       "required": true
     },
-    "descuento": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
     "pago": {
       "type": "string",
       "default": "Contado",
       "required": true
+    },
+    "descuento": {
+      "type": "string",
+      "required": true
+    },
+    "observaciones": {
+      "type": "string"
     }
   }
 }
