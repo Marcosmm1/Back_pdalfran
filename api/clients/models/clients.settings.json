@@ -87,10 +87,12 @@
       "type": "string"
     },
     "EOI": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "SID": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
