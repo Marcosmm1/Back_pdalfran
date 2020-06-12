@@ -85,6 +85,12 @@
     },
     "observaciones": {
       "type": "string"
+    },
+    "EOI": {
+      "type": "string"
+    },
+    "SID": {
+      "type": "string"
     }
   }
 }
