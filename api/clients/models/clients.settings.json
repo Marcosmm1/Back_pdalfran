@@ -84,15 +84,16 @@
       "required": true
     },
     "observaciones": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "EOI": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "SID": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
