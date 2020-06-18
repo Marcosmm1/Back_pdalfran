@@ -91,7 +91,7 @@
       "type": "string",
       "required": false
     },
-    "SID": {
+    "FID": {
       "type": "string",
       "required": false
     }
